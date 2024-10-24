@@ -16,4 +16,5 @@ Route::post('/posts', [PostController::class, 'store']);
 // Show a specific post by ID
 Route::get('/posts/{id}', action: [PostController::class, 'show']);
 
-Route::get('/posts/{id}', action: [PostController::class, 'delete']);
+Route::delete('/posts/{id}', [PostController::class, 'destroy']);
+
