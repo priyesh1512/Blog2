@@ -52,7 +52,7 @@
 
 <h1>Blogs</h1>
 
-<a href="/posts/create" style="display: block; text-align: center; margin-bottom: 20px;">Create New Task</a>
+<a href="/posts/create" style="display: block; text-align: center; margin-bottom: 20px;">Create New Blog</a>
 
 <ul>
   @foreach ($posts as $post)

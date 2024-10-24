@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>View Task</title>
+    <title>View Blogs</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -36,7 +36,7 @@
 <div class="task">
     <h1>{{ $post->title }}</h1>
     <p>{{ $post->content }}</p>
-    <a href="/posts">Back to all tasks</a>
+    <a href="/posts">Back to all Blogs</a>
 </div>
 
 </body>
